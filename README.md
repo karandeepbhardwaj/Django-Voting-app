@@ -8,13 +8,19 @@
 # Install dependencies
 pipenv install
 
+FOR Conda
+
+update conda -  conda update conda
+create env - conda create --name envname python=3.8.5
+activate env - conda activate envname
+install django - conda install -c anaconda django
+
+start project - django-admin startpoint projectname
+
+
 cd pollster
 
 # Serve on localhost:8000
-python manage.py runserver
+python3.8 manage.py runserver
 ```
-
-### Commands Gist
-You can find all of the commands from the project here:
-https://gist.github.com/bradtraversy/06538da5924882b2cf30fa6310d505b1
 
