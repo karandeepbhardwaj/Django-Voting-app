@@ -1,14 +1,16 @@
-# Pollster App (Django Crash Course)
+# Voting App
 
 > Python Django app to create polls with questions/choices
 
 ## Quick Start
 
+For PIP/Shell
+
 ``` bash
 # Install dependencies
 pipenv install
 
-FOR Conda
+For Conda
 
 update conda -  conda update conda
 create env - conda create --name envname python=3.8.5
@@ -23,4 +25,3 @@ cd pollster
 # Serve on localhost:8000
 python3.8 manage.py runserver
 ```
-
